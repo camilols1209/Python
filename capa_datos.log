@@ -263,3 +263,14 @@ Apellido:Perez, Email: jperez@mail.com
         ID_PERSONA: 7, Nombre: Martha,
         Apellido:Esparza, Email: None 
 
+[2022-03-27 13:00:46] DEBUG: [CursorPool.py:9] Inicio del metodo whit __enter__ 
+
+[2022-03-27 13:00:46] DEBUG: [Conexion.py:19] Creación del pool exitosa <psycopg2.pool.SimpleConnectionPool object at 0x0000023DF2DE3EE0>
+[2022-03-27 13:00:46] DEBUG: [Conexion.py:30] Conexion obtenida del Pool:<connection object at 0x0000023DF3339140; dsn: 'user=postgres password=xxx dbname=test host=localhost port=5432', closed: 0> 
+
+[2022-03-27 13:00:46] DEBUG: [CursorPool.py:28] Dentro del with
+[2022-03-27 13:00:46] DEBUG: [CursorPool.py:30] [(2, 'Karla', 'Gomez', 'kgomez@mail.com'), (3, 'Ivonne', 'Lara', 'ilara@mail.com'), (5, 'Maria', 'Esparza', 'mesperanza@mail.com'), (6, 'Martha', 'Esparza', 'maesperanza@mail.com'), (1, 'Maria_2', 'Esparza_2', 'mesperanza@mail.com_2'), (7, 'Martha', 'Esparza', 'maesperanza@mail.com')]
+[2022-03-27 13:00:46] DEBUG: [CursorPool.py:14] Se Ejecuta el metodo __exit__
+[2022-03-27 13:00:46] DEBUG: [CursorPool.py:20] Commit de la transacción
+[2022-03-27 13:00:46] DEBUG: [Conexion.py:35] Regresamos la conexion al Pool: <connection object at 0x0000023DF3339140; dsn: 'user=postgres password=xxx dbname=test host=localhost port=5432', closed: 0> 
+
